@@ -66,3 +66,36 @@ let adress = {
     "city": "Lancaster",
     "country": "UK"
 };
+
+
+
+/**
+ * Lesson 4
+ *Converting variables
+ */
+
+//  string to number
+let num1 = '5';
+let num2 = '10';
+
+console.log(num1 + num2); //510
+
+let num3 = Number('5');
+let num4 = Number('10');
+
+console.log(num3 + num4); //15
+
+//number to string 
+
+//Object to date
+let date = String(new Date());
+console.log('date is : ' + date);
+
+// array to String 
+let StringArray = String([1, 2, 3, 4]);
+console.log(typeof StringArray)
+console.log(StringArray.length)
+
+//to string 
+let value = (false).toString();
+console.log(value);
